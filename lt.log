@@ -140,3 +140,169 @@
 {"level":"debug","time":"2023-08-11T15:48:53.112+0530","caller":"core/lifecycle.go:391","msg":"Waiting for the goroutines to exit"}
 {"level":"debug","time":"2023-08-11T15:48:53.112+0530","caller":"core/lifecycle.go:393","msg":"All goroutines exited"}
 {"level":"debug","time":"2023-08-11T15:48:53.112+0530","caller":"cmd/lt.go:239","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-08-11T16:01:31.708+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-08-11T16:01:31.931+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-08-11T16:01:31.932+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-08-11T16:01:31.932+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-08-11T16:01:31.932+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"warn","time":"2023-08-11T16:01:31.933+0530","caller":"configmanager/setup.go:79","msg":"Tunnel Name was not specified, using: 470a7d6b-d42b-45e8-a46c-39a2ec6248e0"}
+{"level":"debug","time":"2023-08-11T16:01:31.933+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user mohammadk --key ***** --infoAPIPort 65383 --callbackURL http://127.0.0.1:65384"}
+{"level":"debug","time":"2023-08-11T16:01:32.797+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-08-11T16:01:32.943+0530","caller":"apiserver/setup.go:154","msg":"Starting API server"}
+{"level":"debug","time":"2023-08-11T16:01:32.943+0530","caller":"custom/setup.go:736","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-08-11T16:01:32.943+0530","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-08-11T16:01:32.943+0530","caller":"callback/setup.go:51","msg":"Starting the callback agent"}
+{"level":"debug","time":"2023-08-11T16:01:32.943+0530","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-08-11T16:01:32.943+0530","caller":"apiserver/setup.go:136","msg":"Starting API server for tunnel info on port: 65383"}
+{"level":"debug","time":"2023-08-11T16:01:32.943+0530","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"info","time":"2023-08-11T16:01:32.944+0530","caller":"custom/setup.go:683","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2023-08-11T16:01:33.133+0530","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-08-11T16:01:34.068+0530","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2023-08-11T16:01:34.129+0530","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2023-08-11T16:01:34.191+0530","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"info","time":"2023-08-11T16:01:34.191+0530","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-08-11T16:01:34.191+0530","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-08-11T16:01:34.191+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-08-11T16:01:34.626+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-08-11T16:01:34.626+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-08-11T16:01:36.158+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-08-11T16:01:36.158+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-08-11T16:01:36.158+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-08-11T16:01:36.158+0530","caller":"core/lifecycle.go:322","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-08-11T16:01:37.409+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 22924"}
+{"level":"debug","time":"2023-08-11T16:01:37.409+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 23183"}
+{"level":"debug","time":"2023-08-11T16:01:37.409+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 22223"}
+{"level":"info","time":"2023-08-11T16:01:37.409+0530","caller":"core/lifecycle.go:336","msg":"You can start testing now"}
+{"level":"info","time":"2023-08-11T16:01:37.409+0530","caller":"core/lifecycle.go:337","msg":"Tunnel ID: 4430300"}
+{"level":"debug","time":"2023-08-11T16:01:37.409+0530","caller":"core/lifecycle.go:338","msg":"Remote Listener Started on Port 10902"}
+{"level":"debug","time":"2023-08-11T16:01:37.418+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 10277"}
+{"level":"debug","time":"2023-08-11T16:01:37.418+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 1277"}
+{"level":"error","time":"2023-08-11T16:01:38.032+0530","caller":"callback/setup.go:93","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:65384\": EOF "}
+{"level":"debug","time":"2023-08-11T16:01:43.181+0530","caller":"custom/setup.go:495","msg":"handling connect request for URL https://accounts.google.com:443"}
+{"level":"debug","time":"2023-08-11T16:01:44.209+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:44.251+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"index.html\"] Content-Encoding:[gzip] Content-Type:[text/html; charset=utf-8] Date:[Fri, 11 Aug 2023 10:31:44 GMT] Etag:[\"6085a0f52a015fc95b701a46ee605a8d13d7f2cf\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc000184580 -1 [chunked] false false map[] 0xc00057e400 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:44.490+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:44.500+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"bootstrap.min.css\"] Content-Encoding:[gzip] Content-Type:[text/css; charset=utf-8] Date:[Fri, 11 Aug 2023 10:31:44 GMT] Etag:[\"19b739daea75d9bc1482a7ad55cd0ac19be66bff\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc000370100 -1 [chunked] false false map[] 0xc00072e500 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:44.584+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:44.599+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"jquery-1.12.0.min.js\"] Content-Encoding:[gzip] Content-Type:[application/javascript; charset=utf-8] Date:[Fri, 11 Aug 2023 10:31:44 GMT] Etag:[\"922e2448b9ec18cecc33c2fd98d22b72b509978f\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc000380080 -1 [chunked] false false map[] 0xc00032c200 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:44.804+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:44.804+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:44.810+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"fira.css\"] Content-Length:[809] Content-Type:[text/css; charset=utf-8] Date:[Fri, 11 Aug 2023 10:31:44 GMT] Etag:[\"54a18faf81209ab0888b5f63958318d9bbfba36e\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc00052a480 809 [] false false map[] 0xc00001c300 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:44.812+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"styles.css\"] Content-Encoding:[gzip] Content-Type:[text/css; charset=utf-8] Date:[Fri, 11 Aug 2023 10:31:44 GMT] Etag:[\"b87593745afcbfbbff6937d1fc8cb20f8e8f49b1\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc0003ea240 -1 [chunked] false false map[] 0xc00057e500 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:45.260+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:45.261+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:45.261+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:45.269+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"FiraSans-Medium.woff\"] Content-Length:[186824] Content-Type:[application/font-woff] Date:[Fri, 11 Aug 2023 10:31:45 GMT] Etag:[\"0b7063d150bf8d87078327a176d975262213beda\"] Keep-Alive:[timeout=5]] 0xc000370340 186824 [] false false map[] 0xc00032c200 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:45.270+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"FiraSans-Regular.woff\"] Content-Length:[183268] Content-Type:[application/font-woff] Date:[Fri, 11 Aug 2023 10:31:45 GMT] Etag:[\"f44bd1298ac6792bee60892de6ae996e03612035\"] Keep-Alive:[timeout=5]] 0xc00004a4c0 183268 [] false false map[] 0xc0000e8600 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:45.271+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"scripts.js\"] Content-Encoding:[gzip] Content-Type:[application/javascript; charset=utf-8] Date:[Fri, 11 Aug 2023 10:31:45 GMT] Etag:[\"75cc260371c417ae6e8f871c25e875e7d4281201\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc000380080 -1 [chunked] false false map[] 0xc000552600 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:45.358+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:45.363+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"highlight.pack.js\"] Content-Encoding:[gzip] Content-Type:[application/javascript; charset=utf-8] Date:[Fri, 11 Aug 2023 10:31:45 GMT] Etag:[\"83f4a18ab39d07a2e2295841ec3ae4592c217b57\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc00068e5c0 -1 [chunked] false false map[] 0xc0000e8800 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:45.424+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:45.435+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"bootstrap.min.js\"] Content-Encoding:[gzip] Content-Type:[application/javascript; charset=utf-8] Date:[Fri, 11 Aug 2023 10:31:45 GMT] Etag:[\"fe5f745aba26d78edc6a2eb9eaa7b3c7c012cdee\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc000370a40 -1 [chunked] false false map[] 0xc0000e8900 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:47.120+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:47.125+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"favicon.ico\"] Content-Encoding:[gzip] Content-Type:[image/x-icon] Date:[Fri, 11 Aug 2023 10:31:47 GMT] Etag:[\"a719c15055a554782642a871e6bd434d5b895034\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc00068e840 -1 [chunked] false false map[] 0xc000552a00 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:01:49.811+0530","caller":"custom/setup.go:724","msg":"Exiting the sink proxy"}
+{"level":"debug","time":"2023-08-11T16:01:49.811+0530","caller":"core/lifecycle.go:379","msg":"Context cancelled"}
+{"level":"debug","time":"2023-08-11T16:01:49.811+0530","caller":"apiserver/setup.go:132","msg":"Shutting down the server"}
+{"level":"debug","time":"2023-08-11T16:01:49.811+0530","caller":"callback/setup.go:115","msg":"Shutting down the callback agent"}
+{"level":"info","time":"2023-08-11T16:01:49.812+0530","caller":"core/lifecycle.go:381","msg":"Stopping tunnel"}
+{"level":"debug","time":"2023-08-11T16:01:49.812+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-08-11T16:01:49.812+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-08-11T16:01:51.614+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 22223 closed, reason: EOF"}
+{"level":"debug","time":"2023-08-11T16:01:51.614+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 22924 closed, reason: EOF"}
+{"level":"debug","time":"2023-08-11T16:01:51.614+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 1277 closed, reason: EOF"}
+{"level":"debug","time":"2023-08-11T16:01:51.614+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 23183 closed, reason: EOF"}
+{"level":"debug","time":"2023-08-11T16:01:51.614+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 10277 closed, reason: EOF"}
+{"level":"debug","time":"2023-08-11T16:01:51.614+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 10277"}
+{"level":"debug","time":"2023-08-11T16:01:51.614+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 22223"}
+{"level":"debug","time":"2023-08-11T16:01:51.614+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 22924"}
+{"level":"debug","time":"2023-08-11T16:01:51.614+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 1277"}
+{"level":"debug","time":"2023-08-11T16:01:51.614+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 23183"}
+{"level":"info","time":"2023-08-11T16:01:52.280+0530","caller":"core/lifecycle.go:388","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2023-08-11T16:01:52.280+0530","caller":"core/lifecycle.go:390","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-08-11T16:01:52.280+0530","caller":"core/lifecycle.go:391","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-08-11T16:01:52.280+0530","caller":"core/lifecycle.go:393","msg":"All goroutines exited"}
+{"level":"debug","time":"2023-08-11T16:01:52.280+0530","caller":"cmd/lt.go:239","msg":"main: all goroutines have finished."}
+{"level":"debug","time":"2023-08-11T16:02:32.969+0530","caller":"ulimit/ulimit.go:35","msg":"File descriptor limit 61440"}
+{"level":"info","time":"2023-08-11T16:02:33.381+0530","caller":"cmd/lt.go:183","msg":"LambdaTest Tunnel version: 3.1.31"}
+{"level":"debug","time":"2023-08-11T16:02:33.382+0530","caller":"core/lifecycle.go:41","msg":"Starting pipeline....."}
+{"level":"debug","time":"2023-08-11T16:02:33.382+0530","caller":"core/lifecycle.go:42","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2023-08-11T16:02:33.382+0530","caller":"core/lifecycle.go:43","msg":"Fetching config"}
+{"level":"warn","time":"2023-08-11T16:02:33.382+0530","caller":"configmanager/setup.go:79","msg":"Tunnel Name was not specified, using: 9b4f5e67-d62c-40ef-aa9c-e3e4a6e8accb"}
+{"level":"debug","time":"2023-08-11T16:02:33.383+0530","caller":"core/lifecycle.go:65","msg":"Starting tunnel With flags: --user mohammadk --key ***** --infoAPIPort 49314 --callbackURL http://127.0.0.1:49315"}
+{"level":"debug","time":"2023-08-11T16:02:34.003+0530","caller":"core/lifecycle.go:83","msg":"Remote config fetched"}
+{"level":"debug","time":"2023-08-11T16:02:34.334+0530","caller":"apiserver/setup.go:154","msg":"Starting API server"}
+{"level":"debug","time":"2023-08-11T16:02:34.334+0530","caller":"callback/setup.go:51","msg":"Starting the callback agent"}
+{"level":"debug","time":"2023-08-11T16:02:34.334+0530","caller":"custom/setup.go:736","msg":"Starting sink proxy"}
+{"level":"debug","time":"2023-08-11T16:02:34.334+0530","caller":"networkscanner/setup.go:63","msg":"Trying on port 22"}
+{"level":"debug","time":"2023-08-11T16:02:34.334+0530","caller":"networkscanner/setup.go:97","msg":"Trying on port 443"}
+{"level":"debug","time":"2023-08-11T16:02:34.334+0530","caller":"networkscanner/setup.go:131","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2023-08-11T16:02:34.334+0530","caller":"apiserver/setup.go:136","msg":"Starting API server for tunnel info on port: 49314"}
+{"level":"info","time":"2023-08-11T16:02:34.335+0530","caller":"custom/setup.go:683","msg":"Tunnel binary started on port :9090"}
+{"level":"debug","time":"2023-08-11T16:02:34.608+0530","caller":"networkscanner/setup.go:148","msg":"WSS connection was successful"}
+{"level":"debug","time":"2023-08-11T16:02:35.424+0530","caller":"networkscanner/setup.go:118","msg":"SSH connection over port 443 successful"}
+{"level":"debug","time":"2023-08-11T16:02:35.480+0530","caller":"networkscanner/setup.go:84","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2023-08-11T16:02:35.486+0530","caller":"networkscanner/setup.go:173","msg":"SSH connection over ws successful"}
+{"level":"info","time":"2023-08-11T16:02:35.486+0530","caller":"core/lifecycle.go:120","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2023-08-11T16:02:35.486+0530","caller":"core/lifecycle.go:250","msg":"Launching tunnel"}
+{"level":"debug","time":"2023-08-11T16:02:35.487+0530","caller":"ws/control.go:34","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2023-08-11T16:02:36.097+0530","caller":"ws/control.go:72","msg":"Control ws channel opened"}
+{"level":"debug","time":"2023-08-11T16:02:36.097+0530","caller":"ws/control.go:131","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2023-08-11T16:02:37.544+0530","caller":"ws/control.go:196","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2023-08-11T16:02:37.545+0530","caller":"ssh/setup.go:71","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2023-08-11T16:02:37.545+0530","caller":"ws/control.go:200","msg":"controller bus registered"}
+{"level":"debug","time":"2023-08-11T16:02:37.544+0530","caller":"core/lifecycle.go:322","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2023-08-11T16:02:38.945+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 9186"}
+{"level":"debug","time":"2023-08-11T16:02:38.945+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 29746"}
+{"level":"debug","time":"2023-08-11T16:02:38.945+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 8273"}
+{"level":"info","time":"2023-08-11T16:02:38.945+0530","caller":"core/lifecycle.go:336","msg":"You can start testing now"}
+{"level":"info","time":"2023-08-11T16:02:38.946+0530","caller":"core/lifecycle.go:337","msg":"Tunnel ID: 4430325"}
+{"level":"debug","time":"2023-08-11T16:02:38.946+0530","caller":"core/lifecycle.go:338","msg":"Remote Listener Started on Port 29148"}
+{"level":"debug","time":"2023-08-11T16:02:38.946+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 1796"}
+{"level":"debug","time":"2023-08-11T16:02:38.945+0530","caller":"ssh/ssh.go:216","msg":"Successfully started sshd listener on port: 29349"}
+{"level":"error","time":"2023-08-11T16:02:39.056+0530","caller":"callback/setup.go:93","msg":"ERR::API::WEB::HOK : Unable to call webhook url :  \nPost \"http://127.0.0.1:49315\": EOF "}
+{"level":"debug","time":"2023-08-11T16:02:45.988+0530","caller":"custom/setup.go:495","msg":"handling connect request for URL https://accounts.google.com:443"}
+{"level":"debug","time":"2023-08-11T16:02:46.713+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:46.728+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"index.html\"] Content-Encoding:[gzip] Content-Type:[text/html; charset=utf-8] Date:[Fri, 11 Aug 2023 10:32:46 GMT] Etag:[\"6085a0f52a015fc95b701a46ee605a8d13d7f2cf\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc00069e480 -1 [chunked] false false map[] 0xc00032e300 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:46.931+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:46.931+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:46.948+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"fira.css\"] Content-Length:[809] Content-Type:[text/css; charset=utf-8] Date:[Fri, 11 Aug 2023 10:32:46 GMT] Etag:[\"54a18faf81209ab0888b5f63958318d9bbfba36e\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc0003d6540 809 [] false false map[] 0xc000758600 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:46.949+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"bootstrap.min.css\"] Content-Encoding:[gzip] Content-Type:[text/css; charset=utf-8] Date:[Fri, 11 Aug 2023 10:32:46 GMT] Etag:[\"19b739daea75d9bc1482a7ad55cd0ac19be66bff\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc0004b67c0 -1 [chunked] false false map[] 0xc00032e400 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.146+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.146+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.146+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.163+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"styles.css\"] Content-Encoding:[gzip] Content-Type:[text/css; charset=utf-8] Date:[Fri, 11 Aug 2023 10:32:47 GMT] Etag:[\"b87593745afcbfbbff6937d1fc8cb20f8e8f49b1\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc0004b6200 -1 [chunked] false false map[] 0xc000526300 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.163+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"highlight.pack.js\"] Content-Encoding:[gzip] Content-Type:[application/javascript; charset=utf-8] Date:[Fri, 11 Aug 2023 10:32:47 GMT] Etag:[\"83f4a18ab39d07a2e2295841ec3ae4592c217b57\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc0004b6280 -1 [chunked] false false map[] 0xc00052e300 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.167+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"jquery-1.12.0.min.js\"] Content-Encoding:[gzip] Content-Type:[application/javascript; charset=utf-8] Date:[Fri, 11 Aug 2023 10:32:47 GMT] Etag:[\"922e2448b9ec18cecc33c2fd98d22b72b509978f\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc0004b6540 -1 [chunked] false false map[] 0xc0000d8600 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.256+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.256+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.264+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"scripts.js\"] Content-Encoding:[gzip] Content-Type:[application/javascript; charset=utf-8] Date:[Fri, 11 Aug 2023 10:32:47 GMT] Etag:[\"75cc260371c417ae6e8f871c25e875e7d4281201\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc000164740 -1 [chunked] false false map[] 0xc00032e300 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.267+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"bootstrap.min.js\"] Content-Encoding:[gzip] Content-Type:[application/javascript; charset=utf-8] Date:[Fri, 11 Aug 2023 10:32:47 GMT] Etag:[\"fe5f745aba26d78edc6a2eb9eaa7b3c7c012cdee\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc00069e440 -1 [chunked] false false map[] 0xc000758400 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.443+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.443+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.450+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"FiraSans-Medium.woff\"] Content-Length:[186824] Content-Type:[application/font-woff] Date:[Fri, 11 Aug 2023 10:32:47 GMT] Etag:[\"0b7063d150bf8d87078327a176d975262213beda\"] Keep-Alive:[timeout=5]] 0xc000048140 186824 [] false false map[] 0xc000148b00 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:47.451+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"FiraSans-Regular.woff\"] Content-Length:[183268] Content-Type:[application/font-woff] Date:[Fri, 11 Aug 2023 10:32:47 GMT] Etag:[\"f44bd1298ac6792bee60892de6ae996e03612035\"] Keep-Alive:[timeout=5]] 0xc000352380 183268 [] false false map[] 0xc00032e900 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:48.304+0530","caller":"custom/setup.go:346","msg":"handle http request for localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:48.310+0530","caller":"custom/setup.go:462","msg":"Response &{200 OK 200 HTTP/1.1 1 1 map[Accept-Ranges:[bytes] Cache-Control:[no-cache] Connection:[keep-alive] Content-Disposition:[inline; filename=\"favicon.ico\"] Content-Encoding:[gzip] Content-Type:[image/x-icon] Date:[Fri, 11 Aug 2023 10:32:48 GMT] Etag:[\"a719c15055a554782642a871e6bd434d5b895034\"] Keep-Alive:[timeout=5] Vary:[Accept-Encoding]] 0xc00069e940 -1 [chunked] false false map[] 0xc00032eb00 <nil>} for http request from host localhost:58477"}
+{"level":"debug","time":"2023-08-11T16:02:50.485+0530","caller":"core/lifecycle.go:379","msg":"Context cancelled"}
+{"level":"debug","time":"2023-08-11T16:02:50.485+0530","caller":"custom/setup.go:724","msg":"Exiting the sink proxy"}
+{"level":"info","time":"2023-08-11T16:02:50.485+0530","caller":"core/lifecycle.go:381","msg":"Stopping tunnel"}
+{"level":"debug","time":"2023-08-11T16:02:50.485+0530","caller":"apiserver/setup.go:132","msg":"Shutting down the server"}
+{"level":"debug","time":"2023-08-11T16:02:50.485+0530","caller":"callback/setup.go:115","msg":"Shutting down the callback agent"}
+{"level":"debug","time":"2023-08-11T16:02:50.486+0530","caller":"ws/control.go:140","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2023-08-11T16:02:50.486+0530","caller":"ws/control.go:193","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2023-08-11T16:02:51.634+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 9186 closed, reason: EOF"}
+{"level":"debug","time":"2023-08-11T16:02:51.634+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 29349 closed, reason: EOF"}
+{"level":"debug","time":"2023-08-11T16:02:51.634+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 29746 closed, reason: EOF"}
+{"level":"debug","time":"2023-08-11T16:02:51.634+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 29746"}
+{"level":"debug","time":"2023-08-11T16:02:51.634+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 1796 closed, reason: EOF"}
+{"level":"debug","time":"2023-08-11T16:02:51.634+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 29349"}
+{"level":"debug","time":"2023-08-11T16:02:51.634+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 9186"}
+{"level":"debug","time":"2023-08-11T16:02:51.634+0530","caller":"ssh/ssh.go:222","msg":"Remote connection on remote port: 8273 closed, reason: EOF"}
+{"level":"debug","time":"2023-08-11T16:02:51.634+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 8273"}
+{"level":"debug","time":"2023-08-11T16:02:51.634+0530","caller":"ssh/ssh.go:244","msg":"closed ssh connection with port 1796"}
+{"level":"info","time":"2023-08-11T16:02:51.656+0530","caller":"core/lifecycle.go:388","msg":"Tunnel stopped successfully"}
+{"level":"debug","time":"2023-08-11T16:02:51.656+0530","caller":"core/lifecycle.go:390","msg":"Quit requested from main goroutine...."}
+{"level":"debug","time":"2023-08-11T16:02:51.656+0530","caller":"core/lifecycle.go:391","msg":"Waiting for the goroutines to exit"}
+{"level":"debug","time":"2023-08-11T16:02:51.656+0530","caller":"core/lifecycle.go:393","msg":"All goroutines exited"}
+{"level":"debug","time":"2023-08-11T16:02:51.656+0530","caller":"cmd/lt.go:239","msg":"main: all goroutines have finished."}

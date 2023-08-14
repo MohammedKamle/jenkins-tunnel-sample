@@ -20,7 +20,7 @@ public class SampleWebTest {
     private RemoteWebDriver driver;
     private String Status = "failed";
 
-    private Tunnel t;
+  //  private Tunnel t;
 
     @BeforeMethod
     public void setup(Method m, ITestContext ctx) throws Exception {
@@ -34,19 +34,19 @@ public class SampleWebTest {
         caps.setCapability("platform", "Windows 10");
         caps.setCapability("browserName", "chrome");
         caps.setCapability("version", "latest");
-        caps.setCapability("build", "debug");
+        caps.setCapability("build", "docker-tunnel");
         caps.setCapability("name", "sample-test");
         caps.setCapability("tunnel", true);
 
         //create tunnel instance
-        t = new Tunnel();
+      //  t = new Tunnel();
         HashMap<String, String> options = new HashMap<String, String>();
         options.put("user", username);
         options.put("key", authkey);
 
         //start tunnel
-        t.start(options);
-        System.out.println("Tunnel has been started");
+        //t.start(options);
+       // System.out.println("Tunnel has been started");
 
         driver = new RemoteWebDriver(new URL("https://" + username + ":" + authkey + hub), caps);
     }
@@ -56,7 +56,10 @@ public class SampleWebTest {
         String spanText;
         System.out.println("Loading Url");
 
-        driver.get("http://localhost:58477/");
+        driver.get("http://192.168.0.106:8000/");
+
+        Assert.assertTrue(driver.getTitle().toLowerCase().contains("cypress.io"),
+                "Page title missing");
 
 
         Status = "passed";
@@ -70,7 +73,7 @@ public class SampleWebTest {
     public void tearDown() throws Exception {
         driver.executeScript("lambda-status=" + Status);
         driver.quit();
-        t.stop();
+       // t.stop();
     }
 
 }
